@@ -44,7 +44,25 @@ public class PalindromeTest {
 
     @Test
     public void testSentenceWithOnlySpecialCharactersShouldBeAPalindrome() {
-        String sentence = "!@#&^%*()";
+        String sentence = "!@#&^%*(@@@$)";
+        assertTrue(palindrome.check(sentence));
+    }
+
+    @Test
+    public void testSentenceNullShouldNotBeAPalindrome() {
+        String sentence = null;
+        assertFalse(palindrome.check(sentence));
+    }
+
+    @Test
+    public void testSentenceWithSingleCharacterShouldBeAPalindrome() {
+        String sentence = "a";
+        assertTrue(palindrome.check(sentence));
+    }
+
+    @Test
+    public void testSentenceWithSingleSpecialCharacterShouldBeAPalindrome() {
+        String sentence = "@";
         assertTrue(palindrome.check(sentence));
     }
 
