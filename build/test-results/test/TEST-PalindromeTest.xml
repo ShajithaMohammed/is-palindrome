@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PalindromeTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-07-20T07:02:35" hostname="Sajithas-MBP" time="0.003">
+  <properties/>
+  <testcase name="testSentenceWithOnlySpecialCharactersShouldBeAPalindrome" classname="PalindromeTest" time="0.002"/>
+  <testcase name="testShouldNotBeAPalindrome" classname="PalindromeTest" time="0.0"/>
+  <testcase name="testSentenceWithSpecialCharactersShouldNotBeAPalindrome" classname="PalindromeTest" time="0.0"/>
+  <testcase name="testEmptyStringShouldBeAPalindrome" classname="PalindromeTest" time="0.0"/>
+  <testcase name="testSentenceShouldBeAPalindrome" classname="PalindromeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
